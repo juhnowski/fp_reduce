@@ -15,4 +15,10 @@ For Mac:
 brew install tbb
 ```
 
+For xCode:
+
+- Set ```Header Search Paths``` to ```/usr/local/Cellar/tbb/2020_U2/include/```
+- Set ```Library Search Paths``` to ```/usr/local/Cellar/tbb/2020_U2/lib/```
+- Set ```Other Linker Flags``` to ```-ltbb```
+
 [C++17 and parallel algorithms in STL - setting up]: http://mng.bz/8435

@@ -242,6 +242,9 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/tbb/2020_U2/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/tbb/2020_U2/lib/;
+				OTHER_LDFLAGS = "-ltbb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -251,6 +254,9 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/tbb/2020_U2/include/;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/tbb/2020_U2/lib/;
+				OTHER_LDFLAGS = "-ltbb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
